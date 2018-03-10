@@ -1,0 +1,233 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-size: 14px;
+}
+body{
+	height: 100%;
+	position: relative;
+}
+div {
+	display: block;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	border-bottom: 2px solid rgb(97, 184, 80);
+	z-index: 9999;
+	position: fixed;
+	background: #000000;
+	height: 80px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.headdiv {
+	min-height: 80px;
+}
+
+#head {
+	width: 1200px;
+	margin: 0px auto;
+	min-height: 80px;
+	border-bottom-color: rgb(97, 184, 80);
+}
+
+#headleft {
+	padding-left: 15px;
+	padding-right: 20px;
+	width: 37%;
+	text-align: right;
+	padding-top: 28px;
+	float: left;
+}
+
+#logo {
+	text-align: center;
+	float: left;
+	padding-top: 10px;
+	width: 20%;
+	min-height: 80px;
+}
+
+#headright {
+	width: 37%;
+	text-align: right;
+	padding-top: 28px;
+	min-height: 53px;
+	float: left;
+}
+
+.headdiv a {
+	color: rgb(255, 255, 255);
+	padding: 15px 0px 32px;
+	border-bottom: 2px solid transparent;
+	margin-right: 30px;
+	transform: rotate(0deg) scale(1) translate(0%, 0%);
+	transition: all 0.3s ease;
+}
+
+.headdiv a:hover {
+	color: rgb(97, 184, 80);
+	border-bottom-color: rgba(241, 140, 27, 1);
+	border-bottom-width: 2px;
+}
+
+#headnext {
+	width: 100%;
+	position: absolute;
+	height: 90px;
+	padding-top: 10px;
+	margin-top: 2px;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	overflow: hidden;
+}
+
+.nextdiv {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	padding-top: 10px;
+}
+
+.nextdiv div {
+	width: 33.333333%;
+	min-height: 80px;
+	text-align: center;
+	float: left;
+	transition: all 0.3s ease;
+}
+
+.nextdiv div i {
+	color: rgb(97, 184, 80);
+	font-size: 22px;
+	border-radius: 30px;
+	border: 2px solid rgb(97, 184, 80);
+	padding: 3px;
+}
+
+.nextdiv div a {
+	color: rgb(97, 184, 80);
+	text-align: center;
+	transition: all 0.3s ease;
+	min-height: 80px;
+	min-width: 80px;
+	text-decoration: none;
+	display: inline-block;
+}
+.nextdiv div a:hover{
+	color:#FFFFFF ;
+}
+.nextdiv div h4 {
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	min-width: 10px;
+	min-height: 10px;
+	margin-top: 10px;
+}
+.clickbtn:hover i{
+	color: #61b850;
+	
+}
+/* all .banner轮播 */
+#allbanner{
+	width: 100%;
+	height: 733px;
+	position: relative;
+	padding-bottom: 30px;
+	z-index: 2;
+}
+.slider {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 1;
+	height: 733px;
+	overflow: hidden;
+}
+.slider .bd ul{
+	list-style: none;
+	width: 100%;
+}
+.slider .bd,
+.slider .bd li,
+.slider .bd img {
+	width: 100%;
+	position: relative;
+	height: 100%;
+	
+}
+
+
+/*请给每个幻灯片套个div并设置id，通过id重置这个地方的宽度，达到自定义效果*/
+
+#aaa,#bbb,#ccc,#ddd{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.slider .bd {
+	z-index: 2;
+	overflow: hidden
+}
+
+.slider .bd li {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+.slider .bd li a {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.slider .bd li img {
+	display: block
+}
+
+.slider .hd {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	padding: 0 10px;
+	text-align: center;
+	
+}
+
+.slider .hd li {
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	cursor: pointer;
+	background-color: #C2C2C2
+}
+
+.slider .hd li.active {
+	background-color: #FFFFFF
+}
+
+
+/*圆点*/
+
+.dots li {
+	width: 10px;
+	height: 10px;
+	font-size: 0px;
+	line-height: 0px;
+	border-radius: 50%
+}
+/* all .banner轮播 结束 */
