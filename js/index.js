@@ -82,10 +82,10 @@ $(document).ready(function() {
 		$('#a_list_div1 #alist_div_con').css('width', '20%');
 	});
 	$('#a_list_div2').hover(function(){
-		$('#a_list_div2 #alist_div_con').css('width', '100%');
-	$('#a_list_div2 #a_list_div_a').css('width', '100%');
+		$('#a_list_div2 #alist_div_con h4').css('width', '100%');
+	$('#a_list_div2 #alist_div_con').css('width', '100%');
 	}, function() {
-		$('#a_list_div2 #a_list_div_a').css('width', '30%');
+		$('#a_list_div2 #alist_div_con h4').css('width', '30%');
 		$('#a_list_div2 #alist_div_con').css('width', '20%');
 	});
 	$('#a_list_div3').hover(function() {
